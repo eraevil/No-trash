@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['split.py'],
-             pathex=['F:\\MyProject\\20210730'],
+             pathex=['F:\\MyProject\\No-trash\\Split'],
              binaries=[],
              datas=[],
              hiddenimports=[],

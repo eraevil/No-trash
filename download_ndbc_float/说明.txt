@@ -1,0 +1,7 @@
+1.MDBC浮标下载：
+使用Python3，文件为buoy_download.py
+在Windows系统运行即可，会自动读某个txt文件，代码第八行。
+2.TXT文件的制作
+TXT文件里面全都是制作好的下载网址，如https://www.ndbc.noaa.gov/data/historical/stdmet/0y2w3h2012.txt.gz
+其中会变的只有后面的文件名，文件名在https://www.ndbc.noaa.gov/historical_data.shtml#stdmet提取，
+文件名的提取可用xpath与matlab结合，最后可使用matlab组合成一个个完整的网址。

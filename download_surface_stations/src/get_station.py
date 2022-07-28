@@ -14,13 +14,14 @@ import numpy as np
 
 
 # exit()
+
 # 获取站点列表
 url = 'http://weather.uwyo.edu/surface/meteorogram/index.shtml'
 res = requests.get(url).text
 content = BeautifulSoup(res, "html.parser")
 links = content.find_all('ul')[1].findAll('a')
 
-
+# 获取某一区域的所有站点名称
 def area_link(url):
     stations = []
     # url = 'http://weather.uwyo.edu/surface/meteorogram/alaska.shtml'
@@ -36,15 +37,26 @@ def area_link(url):
     return stations
 
 station_list = []
+station_area = []
 for link in links:
-    print(link['href'])
+    area = link['href'][:-6] # 区域
+    print(area)
     aurl = 'http://weather.uwyo.edu/surface/meteorogram/' + link['href']
     # print(aurl)
     result = area_link(aurl)
     station_list = np.concatenate((station_list, result), axis=0)
+    for i in range(len(result)):
+        station_area.append(area)
+# station_list = np.reshape(station_list,(100,-1))
+# print(station_list.shape)
 
-print(len(station_list))
-
+with open('./result/station_list.txt', 'w') as f:
+    for x in station_list:
+        f.write(str(x) + '\n')
+with open('./result/station_area.txt', 'w') as f:
+    for x in station_area:
+        f.write(str(x) + '\n')
+print("已成功获取站点列表和站点所在区域。")
 # exit(0)
 
 

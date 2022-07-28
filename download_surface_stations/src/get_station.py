@@ -52,10 +52,12 @@ for link in links:
 
 with open('./result/station_list.txt', 'w') as f:
     for x in station_list:
-        f.write(str(x) + '\n')
+        f.write(str(x) + ' ')
+    f.close()
 with open('./result/station_area.txt', 'w') as f:
     for x in station_area:
-        f.write(str(x) + '\n')
+        f.write(str(x) + ' ')
+    f.close()
 print("已成功获取站点列表和站点所在区域。")
 # exit(0)
 

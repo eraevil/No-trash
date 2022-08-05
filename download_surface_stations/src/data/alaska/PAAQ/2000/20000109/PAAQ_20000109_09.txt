@@ -1,0 +1,24 @@
+University of Wyoming, Atmospheric Science
+Observations for PALMER MUNICIPAL, AK (PAAQ)
+Location: 61.60N 149.08W    71 meters
+0753Z  8 Jan 2000 to 2253Z  8 Jan 2000
+
+STN     TIME PMSL   ALTM   TMP DEW RH  DIR SPD VIS  CLOUDS                  Weather      MIN MAX P01  PCP 
+     DD/HHMM hPa    hPa    C   C   %   deg m/s km                                        C   C   mm   mm  
+==== ======= ====== ====== === === === === === ==== ======= ======= ======= ============ === === ==== ====
+PAAQ 08/2253  985.1  984.8  -8  -8  96  90   2 16.1  FEW020  SCT090  OVC150
+PAAQ 08/2153  983.5  983.1  -7  -8  92   0   0 16.1  FEW070  SCT100  OVC150
+PAAQ 08/2053  982.2  981.7  -6  -8  88   0   0 16.1  CLR                                              0.51
+PAAQ 08/1953  980.7  980.4  -5  -7  88   0   0 16.1  BKN090
+PAAQ 08/1853  978.9  978.7  -6  -7  92 340   2 16.1  FEW019  BKN075  BKN085                      0.51
+PAAQ 08/1753  977.9  977.3  -6  -7  88   0   0  4.0  SCT010  OVC018         -SN FG       -11  -6 0.00 0.00
+PAAQ 08/1653  975.9  975.6  -6  -7  88       2 16.1  FEW010  OVC016
+PAAQ 08/1553  973.6  973.3  -7  -8  92   0   0 16.1  OVC018
+PAAQ 08/1453  972.9  972.6  -7  -8  92   0   0 16.1  OVC016
+PAAQ 08/1353  972.6  972.2  -7  -8  95 130   2 16.1  OVC012
+PAAQ 08/1253  972.3  971.9 -11 -12  92  90   3 16.1  CLR
+PAAQ 08/1153  972.1  971.6  -8  -9  92   0   0 16.1  CLR                                 -11  -7
+PAAQ 08/1053  972.7  972.2  -7  -9  84 170   2 16.1  CLR
+PAAQ 08/0953  973.5  973.3  -8  -9  88  60   2 16.1  CLR
+PAAQ 08/0853  974.6  974.3  -7  -8  92       2 16.1  CLR
+PAAQ 08/0753  975.5  975.3  -8  -9  95   0   0 16.1  FEW100

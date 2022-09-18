@@ -60,7 +60,7 @@ def test_ip(proxy):
         if response.status_code == 200:
             usable_ip_list.append(proxy)
             print(proxy, '\033[31m可用\033[0m')
-            with open("ip.txt",'a') as f:
+            with open("ip.txt", 'a') as f:
                 f.write(proxy + '\n')
                 f.close()
         else:

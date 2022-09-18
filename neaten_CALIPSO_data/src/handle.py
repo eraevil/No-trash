@@ -39,7 +39,6 @@ if __name__ == '__main__':
     # print(word_in_files('./','(1)'))
     days = DAYlist('2008-01-01','2008-12-31') # 生成日期列表
     for daynum in days:
-        # print(daynum)
         files = word_in_files('F:/CALIPSO/2008', daynum)
         path = 'F:/CALIPSO/2008/' + daynum[0: 4]+daynum[5:7] + daynum[8:10]
         # print(path)

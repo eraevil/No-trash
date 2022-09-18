@@ -1,9 +1,0 @@
-University of Wyoming, Atmospheric Science
-Observations for PALMER MUNICIPAL, AK (PAAQ)
-Location: 61.60N 149.08W    71 meters
-2353Z  4 Sep 2000 to 2353Z  4 Sep 2000
-
-STN     TIME PMSL   ALTM   TMP DEW RH  DIR SPD VIS  CLOUDS                  MIN MAX PCP 
-     DD/HHMM hPa    hPa    C   C   %   deg m/s km                           C   C   mm  
-==== ======= ====== ====== === === === === === ==== ======= ======= ======= === === ====
-PAAQ 04/2353 1006.8 1006.8  12   9  80   0   0 16.1  SCT020  SCT044  OVC070   8  12 0.00
